@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.question-container {
+    margin-bottom: 20px;
+    padding: 20px; 
+    background-color: #aea6a63b;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button#submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button#submit:hover {
+    background-color: #45a049;
+}
